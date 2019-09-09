@@ -1,5 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Componente from "./componete";
+import Primeiro, { Segundo } from "./componete";
 
-ReactDOM.render(<Componente value="Show!" />, document.getElementById("app"));
+ReactDOM.render(
+  <div>
+    <Primeiro />
+    <Segundo />
+  </div>,
+  document.getElementById("app")
+);
